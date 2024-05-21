@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TNEB Bill Generator</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+
+    <form id="form">
+        <!-- <select name="type" id="type">
+            <option value="home">Domestic</option>
+            <option value="commercial">Commercial</option>
+        </select> -->
+    <h1>TNEB Bill Calculator</h1>
+    <hr>
+    <div class="input-group">
+        <label>New Unit</label>
+        <input type="text" inputmode="numeric" id="new_unit" placeholder="0.00"/>
+
+    </div>       
+    <div class="input-group">
+        <label>Old Unit</label>
+        <input type="text" inputmode="numeric" id="old_unit" placeholder="0.00"/>
+      
+      </div> 
+      <!-- <div class="input-group"> -->
+         <p>Bill Amount : <span id="result">0.00</span></p>
+        <button type="button" id="submit">Calculate Bill</button>
+<!-- </div> -->
+    </form>
+    <script src="index.js">
+    </script>
+</body>
+</html>
